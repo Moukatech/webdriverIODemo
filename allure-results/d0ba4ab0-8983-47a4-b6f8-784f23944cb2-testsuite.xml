@@ -1,0 +1,205 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633635271624' stop='1633635272288'>
+    <name>Learn About Our car safety campaign</name>
+    <title>Learn About Our car safety campaign</title>
+    <test-cases>
+        <test-case start='1633635271630' status='broken' stop='1633635271871'>
+            <name>should go to car safety page </name>
+            <title>should go to car safety page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633635271631' status='broken' stop='1633635271871'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3e0ee89a-d4b4-4449-81b3-103dbc6211aa-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Session [86d02681e3b26eef763e84d191d762a4] was terminated due to BROWSER_TIMEOUT</message>
+                <stack-trace>org.openqa.grid.common.exception.GridException: Session [86d02681e3b26eef763e84d191d762a4] was terminated due to BROWSER_TIMEOUT
+                	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+                	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+                	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+                	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+                	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+                	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+                	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+                	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+                	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+                	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+                	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+                	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+                	at java.lang.Thread.run(Thread.java:748)
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633635271872' status='broken' stop='1633635272073'>
+            <name>Car Safety screenshots</name>
+            <title>Car Safety screenshots</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633635271874' status='broken' stop='1633635272073'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='6c0e36f3-e10c-4044-9071-6955f8e99492-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Session [86d02681e3b26eef763e84d191d762a4] was terminated due to BROWSER_TIMEOUT</message>
+                <stack-trace>org.openqa.grid.common.exception.GridException: Session [86d02681e3b26eef763e84d191d762a4] was terminated due to BROWSER_TIMEOUT
+                	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+                	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+                	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+                	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+                	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+                	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+                	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+                	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+                	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+                	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+                	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+                	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+                	at java.lang.Thread.run(Thread.java:748)
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633635272074' status='broken' stop='1633635272287'>
+            <name>should go to Safety Innovation Page</name>
+            <title>should go to Safety Innovation Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633635272075' status='broken' stop='1633635272287'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='559c0b1b-f1dd-45d4-b10c-a35c82fe3921-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Session [86d02681e3b26eef763e84d191d762a4] was terminated due to BROWSER_TIMEOUT</message>
+                <stack-trace>org.openqa.grid.common.exception.GridException: Session [86d02681e3b26eef763e84d191d762a4] was terminated due to BROWSER_TIMEOUT
+                	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+                	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+                	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+                	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+                	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+                	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+                	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+                	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+                	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+                	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+                	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+                	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+                	at java.lang.Thread.run(Thread.java:748)
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

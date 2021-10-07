@@ -1,0 +1,113 @@
+{
+  "uid" : "99399fcb49c615a6",
+  "name" : "should go to Safety Innovation Page",
+  "fullName" : "Learn About Our car safety campaign.should go to Safety Innovation Page",
+  "historyId" : "bf08abd9148443e6f3cb7ac5eefa9270",
+  "time" : {
+    "start" : 1633615280778,
+    "stop" : 1633615285212,
+    "duration" : 4434
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <a aria-label=\"...\" target=\"\" data-autoid=\"imageWithText:primaryCta\" href=\"/intl/v/car-safety/safety-heritage\" class=\"ah ak bc be cp cq fs hl hm hn ho hp hq hr hs ht hu hv hw hx hy hz ia ib ic id ie if ig ih ii ij ik il im in io ip iq ir is n\">learn more</a> is not clickable at point (193, 24). Other element would receive the click: <div data-autoid=\"localSubMenu:linksContainer\" class=\"bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj q\">...</div>\n                  (Session info: chrome=94.0.4606.71)",
+  "statusTrace" : "0   chromedriver                        0x0000000104b835e9 chromedriver + 2749929\n                1   chromedriver                        0x000000010523a5c3 chromedriver + 9790915\n                2   chromedriver                        0x000000010490e828 chromedriver + 174120\n                3   chromedriver                        0x000000010494a791 chromedriver + 419729\n                4   chromedriver                        0x00000001049483ee chromedriver + 410606\n                5   chromedriver                        0x0000000104945bda chromedriver + 400346\n                6   chromedriver                        0x0000000104944827 chromedriver + 395303\n                7   chromedriver                        0x00000001049387a8 chromedriver + 346024\n                8   chromedriver                        0x0000000104960712 chromedriver + 509714\n                9   chromedriver                        0x0000000104938535 chromedriver + 345397\n                10  chromedriver                        0x000000010496098e chromedriver + 510350\n                11  chromedriver                        0x0000000104972c6b chromedriver + 584811\n                12  chromedriver                        0x0000000104960933 chromedriver + 510259\n                13  chromedriver                        0x0000000104936d6e chromedriver + 339310\n                14  chromedriver                        0x0000000104938095 chromedriver + 344213\n                15  chromedriver                        0x0000000104b4a3bf chromedriver + 2515903\n                16  chromedriver                        0x0000000104b5cf2f chromedriver + 2592559\n                17  chromedriver                        0x0000000104b2ebdf chromedriver + 2403295\n                18  chromedriver                        0x0000000104b5e2da chromedriver + 2597594\n                19  chromedriver                        0x0000000104b3fbcc chromedriver + 2472908\n                20  chromedriver                        0x0000000104b77988 chromedriver + 2701704\n                21  chromedriver                        0x0000000104b77b11 chromedriver + 2702097\n                22  chromedriver                        0x0000000104b885e8 chromedriver + 2770408\n                23  libsystem_pthread.dylib             0x00007fff203288fc _pthread_start + 224\n                24  libsystem_pthread.dylib             0x00007fff20324443 thread_start + 15\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <a aria-label=\"...\" target=\"\" data-autoid=\"imageWithText:primaryCta\" href=\"/intl/v/car-safety/safety-heritage\" class=\"ah ak bc be cp cq fs hl hm hn ho hp hq hr hs ht hu hv hw hx hy hz ia ib ic id ie if ig ih ii ij ik il im in io ip iq ir is n\">learn more</a> is not clickable at point (193, 24). Other element would receive the click: <div data-autoid=\"localSubMenu:linksContainer\" class=\"bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj q\">...</div>\n                  (Session info: chrome=94.0.4606.71)",
+    "statusTrace" : "0   chromedriver                        0x0000000104b835e9 chromedriver + 2749929\n                1   chromedriver                        0x000000010523a5c3 chromedriver + 9790915\n                2   chromedriver                        0x000000010490e828 chromedriver + 174120\n                3   chromedriver                        0x000000010494a791 chromedriver + 419729\n                4   chromedriver                        0x00000001049483ee chromedriver + 410606\n                5   chromedriver                        0x0000000104945bda chromedriver + 400346\n                6   chromedriver                        0x0000000104944827 chromedriver + 395303\n                7   chromedriver                        0x00000001049387a8 chromedriver + 346024\n                8   chromedriver                        0x0000000104960712 chromedriver + 509714\n                9   chromedriver                        0x0000000104938535 chromedriver + 345397\n                10  chromedriver                        0x000000010496098e chromedriver + 510350\n                11  chromedriver                        0x0000000104972c6b chromedriver + 584811\n                12  chromedriver                        0x0000000104960933 chromedriver + 510259\n                13  chromedriver                        0x0000000104936d6e chromedriver + 339310\n                14  chromedriver                        0x0000000104938095 chromedriver + 344213\n                15  chromedriver                        0x0000000104b4a3bf chromedriver + 2515903\n                16  chromedriver                        0x0000000104b5cf2f chromedriver + 2592559\n                17  chromedriver                        0x0000000104b2ebdf chromedriver + 2403295\n                18  chromedriver                        0x0000000104b5e2da chromedriver + 2597594\n                19  chromedriver                        0x0000000104b3fbcc chromedriver + 2472908\n                20  chromedriver                        0x0000000104b77988 chromedriver + 2701704\n                21  chromedriver                        0x0000000104b77b11 chromedriver + 2702097\n                22  chromedriver                        0x0000000104b885e8 chromedriver + 2770408\n                23  libsystem_pthread.dylib             0x00007fff203288fc _pthread_start + 224\n                24  libsystem_pthread.dylib             0x00007fff20324443 thread_start + 15\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633615280780,
+        "stop" : 1633615280835,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24be7a229f4c7aed",
+        "name" : "Request",
+        "source" : "24be7a229f4c7aed.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "b5f70a36c89fc9e9",
+        "name" : "Response",
+        "source" : "b5f70a36c89fc9e9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/397d307b-68e4-495a-afeb-f4e8c2e2d32b/click",
+      "time" : {
+        "start" : 1633615280841,
+        "stop" : 1633615285212,
+        "duration" : 4371
+      },
+      "status" : "broken",
+      "statusMessage" : "0   chromedriver                        0x0000000104b835e9 chromedriver + 2749929\n                1   chromedriver                        0x000000010523a5c3 chromedriver + 9790915\n                2   chromedriver                        0x000000010490e828 chromedriver + 174120\n                3   chromedriver                        0x000000010494a791 chromedriver + 419729\n                4   chromedriver                        0x00000001049483ee chromedriver + 410606\n                5   chromedriver                        0x0000000104945bda chromedriver + 400346\n                6   chromedriver                        0x0000000104944827 chromedriver + 395303\n                7   chromedriver                        0x00000001049387a8 chromedriver + 346024\n                8   chromedriver                        0x0000000104960712 chromedriver + 509714\n                9   chromedriver                        0x0000000104938535 chromedriver + 345397\n                10  chromedriver                        0x000000010496098e chromedriver + 510350\n                11  chromedriver                        0x0000000104972c6b chromedriver + 584811\n                12  chromedriver                        0x0000000104960933 chromedriver + 510259\n                13  chromedriver                        0x0000000104936d6e chromedriver + 339310\n                14  chromedriver                        0x0000000104938095 chromedriver + 344213\n                15  chromedriver                        0x0000000104b4a3bf chromedriver + 2515903\n                16  chromedriver                        0x0000000104b5cf2f chromedriver + 2592559\n                17  chromedriver                        0x0000000104b2ebdf chromedriver + 2403295\n                18  chromedriver                        0x0000000104b5e2da chromedriver + 2597594\n                19  chromedriver                        0x0000000104b3fbcc chromedriver + 2472908\n                20  chromedriver                        0x0000000104b77988 chromedriver + 2701704\n                21  chromedriver                        0x0000000104b77b11 chromedriver + 2702097\n                22  chromedriver                        0x0000000104b885e8 chromedriver + 2770408\n                23  libsystem_pthread.dylib             0x00007fff203288fc _pthread_start + 224\n                24  libsystem_pthread.dylib             0x00007fff20324443 thread_start + 15\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "testClass",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to Safety Innovation Page"
+  }, {
+    "name" : "package",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99399fcb49c615a6.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

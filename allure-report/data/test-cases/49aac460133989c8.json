@@ -1,0 +1,56 @@
+{
+  "uid" : "49aac460133989c8",
+  "name" : "should go to safety Belt page",
+  "fullName" : "Validate safety specs.should go to safety Belt page",
+  "historyId" : "dcc47e9432ea178a155e3de9b634d48d",
+  "time" : {
+    "start" : 1633604627074,
+    "stop" : 1633604629309,
+    "duration" : 2235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate safety specs"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate safety specs"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to safety Belt page"
+  }, {
+    "name" : "package",
+    "value" : "Validate safety specs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49aac460133989c8.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

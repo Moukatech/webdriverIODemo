@@ -1,0 +1,451 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633635263576' stop='1633635283145'>
+    <name>Validate safety specs</name>
+    <title>Validate safety specs</title>
+    <test-cases>
+        <test-case start='1633635263578' status='broken' stop='1633635282903'>
+            <name>should validate safety is well explained</name>
+            <title>should validate safety is well explained</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633635263582' status='passed' stop='1633635269403'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='85b3211c-8490-4298-9c09-295c1f7fd9ef-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633635269405' status='passed' stop='1633635269605'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='448ea7b6-bb09-4762-9029-638587592f16-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='6fc00703-2723-4f1f-b00a-381a787702be-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633635269615' status='passed' stop='1633635270535'>
+                    <name>POST /session/:sessionId/element/8c2dc03e-1352-474d-8f12-e5a2eaa991c9/click</name>
+                    <title>POST /session/:sessionId/element/8c2dc03e-1352-474d-8f12-e5a2eaa991c9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633635270536' status='passed' stop='1633635270733'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='58c44cc4-c224-4261-8606-108b638e8933-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='453b8938-5f69-43f1-bdb8-8e5dede11ef7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633635270740' status='passed' stop='1633635272613'>
+                    <name>POST /session/:sessionId/element/cf1768f3-62cd-4827-90de-0ba8ff851e46/click</name>
+                    <title>POST /session/:sessionId/element/cf1768f3-62cd-4827-90de-0ba8ff851e46/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633635272613' status='passed' stop='1633635272892'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aec4b3c9-3d80-4670-a403-f7dac68a4d46-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='66a3cd9c-0aad-427b-b681-2749fe128bbc-attachment.json' type='application/json' size='782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633635272897' status='broken' stop='1633635282902'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f8993792-54aa-4919-a8ae-c9bfa04ed60b-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps>
+                        <step start='1633635274577' status='broken' stop='1633635282902'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='b4b2d84c-3ad1-477f-a1a1-310190b184e2-attachment.json' type='application/json' size='95'/>
+                            </attachments>
+                            <steps>
+                                <step start='1633635274683' status='broken' stop='1633635282902'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='856a933c-0c43-4e7d-ae8f-63a6ae509f98-attachment.json' type='application/json' size='95'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1633635274844' status='broken' stop='1633635282902'>
+                                            <name>POST /session/:sessionId/elements</name>
+                                            <title>POST /session/:sessionId/elements</title>
+                                            <attachments>
+                                                <attachment title='Request' source='473147c6-3ef3-4204-8fd5-9c58f28fddb1-attachment.json' type='application/json' size='95'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1633635274961' status='broken' stop='1633635282902'>
+                                                    <name>POST /session/:sessionId/elements</name>
+                                                    <title>POST /session/:sessionId/elements</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='293ad2dc-9426-4662-91a9-6b969147ebf0-attachment.json' type='application/json' size='95'/>
+                                                    </attachments>
+                                                    <steps>
+                                                        <step start='1633635275398' status='broken' stop='1633635282902'>
+                                                            <name>POST /session/:sessionId/elements</name>
+                                                            <title>POST /session/:sessionId/elements</title>
+                                                            <attachments>
+                                                                <attachment title='Request' source='d3f2da83-c468-49a7-96fa-f192a0e7428d-attachment.json' type='application/json' size='95'/>
+                                                            </attachments>
+                                                            <steps>
+                                                                <step start='1633635275900' status='broken' stop='1633635282902'>
+                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                    <attachments>
+                                                                        <attachment title='Request' source='440cf1ca-8dff-4686-9d17-fa4cbb19b95b-attachment.json' type='application/json' size='95'/>
+                                                                    </attachments>
+                                                                    <steps>
+                                                                        <step start='1633635276399' status='broken' stop='1633635282902'>
+                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                            <attachments>
+                                                                                <attachment title='Request' source='ca75349f-8d4e-49f7-93f9-62ab5b2d2482-attachment.json' type='application/json' size='95'/>
+                                                                            </attachments>
+                                                                            <steps>
+                                                                                <step start='1633635276898' status='broken' stop='1633635282902'>
+                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Request' source='802a5e0e-e998-4f60-b8ec-f3ce3d37f746-attachment.json' type='application/json' size='95'/>
+                                                                                    </attachments>
+                                                                                    <steps>
+                                                                                        <step start='1633635277399' status='broken' stop='1633635282902'>
+                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                            <attachments>
+                                                                                                <attachment title='Request' source='ce301704-6b29-428c-91ee-bba4a1b9128b-attachment.json' type='application/json' size='95'/>
+                                                                                            </attachments>
+                                                                                            <steps>
+                                                                                                <step start='1633635277899' status='broken' stop='1633635282902'>
+                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Request' source='61c863ac-63ee-4118-b756-f0e123d524d9-attachment.json' type='application/json' size='95'/>
+                                                                                                    </attachments>
+                                                                                                    <steps>
+                                                                                                        <step start='1633635278401' status='broken' stop='1633635282902'>
+                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                            <attachments>
+                                                                                                                <attachment title='Request' source='679c9966-4172-4c24-af9b-7109c3b1673a-attachment.json' type='application/json' size='95'/>
+                                                                                                            </attachments>
+                                                                                                            <steps>
+                                                                                                                <step start='1633635278899' status='broken' stop='1633635282902'>
+                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Request' source='026d4399-d35e-4c72-9c6d-9228341054eb-attachment.json' type='application/json' size='95'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps>
+                                                                                                                        <step start='1633635279399' status='broken' stop='1633635282902'>
+                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                            <attachments>
+                                                                                                                                <attachment title='Request' source='e0941610-97f7-4520-b5c6-e52b57336df4-attachment.json' type='application/json' size='95'/>
+                                                                                                                            </attachments>
+                                                                                                                            <steps>
+                                                                                                                                <step start='1633635279900' status='broken' stop='1633635282902'>
+                                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Request' source='a1a3e597-9369-443c-ac26-b8e68659a2e9-attachment.json' type='application/json' size='95'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps>
+                                                                                                                                        <step start='1633635280400' status='broken' stop='1633635282902'>
+                                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                                            <attachments>
+                                                                                                                                                <attachment title='Request' source='ef24a31b-a7ab-4eca-84ce-958c922aaa0b-attachment.json' type='application/json' size='95'/>
+                                                                                                                                            </attachments>
+                                                                                                                                            <steps>
+                                                                                                                                                <step start='1633635280896' status='broken' stop='1633635282902'>
+                                                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Request' source='fe8b1a00-cefd-45cb-a812-a2171c765a11-attachment.json' type='application/json' size='95'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps>
+                                                                                                                                                        <step start='1633635281400' status='broken' stop='1633635282902'>
+                                                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                            <attachments>
+                                                                                                                                                                <attachment title='Request' source='a69e58c6-62d9-4dc6-8666-9fc12f753dec-attachment.json' type='application/json' size='95'/>
+                                                                                                                                                            </attachments>
+                                                                                                                                                            <steps>
+                                                                                                                                                                <step start='1633635281898' status='broken' stop='1633635282902'>
+                                                                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Request' source='b421313c-17d5-4862-bbce-a433cc73ca52-attachment.json' type='application/json' size='95'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps>
+                                                                                                                                                                        <step start='1633635282400' status='broken' stop='1633635282902'>
+                                                                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                                            <attachments>
+                                                                                                                                                                                <attachment title='Request' source='f5247636-7348-4b87-933a-05042677dd15-attachment.json' type='application/json' size='95'/>
+                                                                                                                                                                            </attachments>
+                                                                                                                                                                            <steps/>
+                                                                                                                                                                        </step>
+                                                                                                                                                                    </steps>
+                                                                                                                                                                </step>
+                                                                                                                                                            </steps>
+                                                                                                                                                        </step>
+                                                                                                                                                    </steps>
+                                                                                                                                                </step>
+                                                                                                                                            </steps>
+                                                                                                                                        </step>
+                                                                                                                                    </steps>
+                                                                                                                                </step>
+                                                                                                                            </steps>
+                                                                                                                        </step>
+                                                                                                                    </steps>
+                                                                                                                </step>
+                                                                                                            </steps>
+                                                                                                        </step>
+                                                                                                    </steps>
+                                                                                                </step>
+                                                                                            </steps>
+                                                                                        </step>
+                                                                                    </steps>
+                                                                                </step>
+                                                                            </steps>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//*[@id="site-nav-cars-menu-section-panel-1"]/div/div[1]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[@id="site-nav-cars-menu-section-panel-1"]/div/div[1]" because element wasn't found
+                    at Object.implicitWait [as default] (/Users/lewismocha/Projects/JScode/node_modules/webdriverio/build/utils/implicitWait.js:34:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633635282904' status='broken' stop='1633635282981'>
+            <name>Save screenshot</name>
+            <title>Save screenshot</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633635282907' status='broken' stop='1633635282981'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='809d79f3-2184-4798-a5b8-13f21873b395-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Session [bdce4bcd631459bf81d51e57ad98afde] was terminated due to BROWSER_TIMEOUT</message>
+                <stack-trace>org.openqa.grid.common.exception.GridException: Session [bdce4bcd631459bf81d51e57ad98afde] was terminated due to BROWSER_TIMEOUT
+                	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+                	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+                	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+                	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+                	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+                	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+                	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+                	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+                	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+                	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+                	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+                	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+                	at java.lang.Thread.run(Thread.java:748)
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633635282984' status='broken' stop='1633635283050'>
+            <name>should go to Full Features Page</name>
+            <title>should go to Full Features Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633635282986' status='broken' stop='1633635283050'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4d82fe95-4013-48b7-bf50-07bfb0a48e19-attachment.json' type='application/json' size='76'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Session [bdce4bcd631459bf81d51e57ad98afde] was terminated due to BROWSER_TIMEOUT</message>
+                <stack-trace>org.openqa.grid.common.exception.GridException: Session [bdce4bcd631459bf81d51e57ad98afde] was terminated due to BROWSER_TIMEOUT
+                	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+                	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+                	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+                	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+                	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+                	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+                	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+                	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+                	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+                	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+                	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+                	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+                	at java.lang.Thread.run(Thread.java:748)
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633635283051' status='broken' stop='1633635283145'>
+            <name>should go to safety Belt page</name>
+            <title>should go to safety Belt page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633635283052' status='broken' stop='1633635283144'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='733b92c1-f3ef-4f8a-a483-912cbdc731ed-attachment.json' type='application/json' size='75'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Session [bdce4bcd631459bf81d51e57ad98afde] was terminated due to BROWSER_TIMEOUT</message>
+                <stack-trace>org.openqa.grid.common.exception.GridException: Session [bdce4bcd631459bf81d51e57ad98afde] was terminated due to BROWSER_TIMEOUT
+                	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+                	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+                	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+                	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+                	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+                	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+                	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+                	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+                	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+                	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+                	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+                	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+                	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+                	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+                	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+                	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+                	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+                	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+                	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+                	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+                	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+                	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+                	at java.lang.Thread.run(Thread.java:748)
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

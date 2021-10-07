@@ -1,0 +1,234 @@
+{
+  "uid" : "8cb88b64fa21ca30",
+  "name" : "should go to Safety Innovation Page",
+  "fullName" : "Learn About Our car safety campaign.should go to Safety Innovation Page",
+  "historyId" : "bf08abd9148443e6f3cb7ac5eefa9270",
+  "time" : {
+    "start" : 1633619366395,
+    "stop" : 1633619368492,
+    "duration" : 2097
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633619366396,
+        "stop" : 1633619366452,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8586e3e8988c7bf3",
+        "name" : "Request",
+        "source" : "8586e3e8988c7bf3.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "7dc230e401bd0aa2",
+        "name" : "Response",
+        "source" : "7dc230e401bd0aa2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1633619366457,
+        "stop" : 1633619366488,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a9a2d505585d1db",
+        "name" : "Request",
+        "source" : "8a9a2d505585d1db.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d30812ae-331d-422d-98e9-6b58c721ff9f/click",
+      "time" : {
+        "start" : 1633619366489,
+        "stop" : 0,
+        "duration" : -1633619366489
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633619366669,
+          "stop" : 1633619366934,
+          "duration" : 265
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "66607758f53f04d6",
+          "name" : "Request",
+          "source" : "66607758f53f04d6.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "be12c17561b6cb8c",
+          "name" : "Response",
+          "source" : "be12c17561b6cb8c.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/d30812ae-331d-422d-98e9-6b58c721ff9f/click",
+        "time" : {
+          "start" : 1633619366940,
+          "stop" : 0,
+          "duration" : -1633619366940
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1633619366953,
+            "stop" : 1633619366971,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "9227dde1154f334e",
+            "name" : "Request",
+            "source" : "9227dde1154f334e.json",
+            "type" : "application/json",
+            "size" : 68
+          }, {
+            "uid" : "d10d8b7e1d12aa60",
+            "name" : "Response",
+            "source" : "d10d8b7e1d12aa60.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/81e831a7-d65e-4586-b72b-00df0bc2e9c3/click",
+          "time" : {
+            "start" : 1633619366977,
+            "stop" : 1633619368421,
+            "duration" : 1444
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/title",
+          "time" : {
+            "start" : 1633619368422,
+            "stop" : 1633619368491,
+            "duration" : 69
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a5822da03be7bbf8",
+            "name" : "Response",
+            "source" : "a5822da03be7bbf8.json",
+            "type" : "application/json",
+            "size" : 33
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 3,
+        "stepsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 5,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "testClass",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to Safety Innovation Page"
+  }, {
+    "name" : "package",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cb88b64fa21ca30.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

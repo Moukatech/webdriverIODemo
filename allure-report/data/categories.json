@@ -1,0 +1,107 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <a data-autoid=\"iconCallouts:cta\" href=\"/intl/v/car-safety\" class=\"a ae ag aw dt du ec hm hn ho hp hq hr hs ht hu\">...</a> is not clickable at point (592, 23). Other element would receive the click: <div class=\"_SN-al _SN-am _SN-an _SN-ay _SN-ds _SN-u _SN-w\">...</div>\n                  (Session info: chrome=94.0.4606.71)",
+      "children" : [ {
+        "name" : "should go to car safety page ",
+        "uid" : "5b73b3e892859f32",
+        "parentUid" : "46013a9c058bfbf0797ecc58c5a37267",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633635085634,
+          "stop" : 1633635089991,
+          "duration" : 4357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.71" ]
+      } ],
+      "uid" : "46013a9c058bfbf0797ecc58c5a37267"
+    }, {
+      "name" : "Can't call scrollIntoView on element with selector \"//*[@id=\"ImageWithText-4\"]//a\" because element wasn't found",
+      "children" : [ {
+        "name" : "should go to Safety Innovation Page",
+        "uid" : "a4753781e54ed096",
+        "parentUid" : "e1fd82182c6d1d6330ca037f3223749b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633635113016,
+          "stop" : 1633635123086,
+          "duration" : 10070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.71" ]
+      }, {
+        "name" : "should go to Safety Innovation Page",
+        "uid" : "27565dcb45b82939",
+        "parentUid" : "e1fd82182c6d1d6330ca037f3223749b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633636537396,
+          "stop" : 1633636547481,
+          "duration" : 10085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.61" ]
+      } ],
+      "uid" : "e1fd82182c6d1d6330ca037f3223749b"
+    }, {
+      "name" : "element click intercepted: Element <div class=\"c d e f g h tk\">...</div> is not clickable at point (568, 9). Other element would receive the click: <div data-autoid=\"pdpsubmenu:nav-mobile\" class=\"at c dt du e f g h q\">...</div>\n                  (Session info: headless chrome=94.0.4606.61)",
+      "children" : [ {
+        "name" : "should go to Full Features Page",
+        "uid" : "f2fd8aad8cec7c10",
+        "parentUid" : "32ed92e302a5b5c002742d4f70952e58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633636510978,
+          "stop" : 1633636519849,
+          "duration" : 8871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.61" ]
+      } ],
+      "uid" : "32ed92e302a5b5c002742d4f70952e58"
+    }, {
+      "name" : "Can't call click on element with selector \"//*[contains(text(),\"Safety belts\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "should go to safety Belt page",
+        "uid" : "80b507e54bd3bb88",
+        "parentUid" : "44ef471fb1bb58a07a60150c353a77b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633636519849,
+          "stop" : 1633636530017,
+          "duration" : 10168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.61" ]
+      } ],
+      "uid" : "44ef471fb1bb58a07a60150c353a77b3"
+    }, {
+      "name" : "element click intercepted: Element <a data-autoid=\"iconCallouts:cta\" href=\"/intl/v/car-safety\" class=\"a ae ag aw dt du ec hm hn ho hp hq hr hs ht hu\">...</a> is not clickable at point (392, 23). Other element would receive the click: <div class=\"_SN-al _SN-am _SN-an _SN-ay _SN-ds _SN-u _SN-w\">...</div>\n                  (Session info: headless chrome=94.0.4606.61)",
+      "children" : [ {
+        "name" : "should go to car safety page ",
+        "uid" : "4de8cd96a6e8602a",
+        "parentUid" : "67ca53bd9494cd3159480b211447a7df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633636532258,
+          "stop" : 1633636537395,
+          "duration" : 5137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.61" ]
+      } ],
+      "uid" : "67ca53bd9494cd3159480b211447a7df"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

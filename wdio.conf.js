@@ -1,10 +1,16 @@
 const { join } = require('path');
+const allure = require('allure-commandline')
 exports.config = {
     //
     // ====================
     // Runner Configuration
     // ====================
     // runner: 'local',
+    // hostname: 'localhost',
+    // port: 4444,
+    // path: '/',
+
+    // hostnames for the kubernetes instance
     hostname: '192.168.64.2',
     port: 30001,
     path: '/wd/hub/',
@@ -25,8 +31,14 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
-    ],
+        //'./test/specs/**/*.js'
+        
+        [  
+        './test/specs/welcome_page_tests.js',
+        './test/specs/car_safety_tests.js',
+        ],
+        './test/specs/carspecs_validation_tests.js',
+],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -61,26 +73,28 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true,
-        platform: 'MAC'
-        // If outputDir is provided WebdriverIO can capture driver session logs
-        // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        // excludeDriverLogs: ['bugreport', 'server'],
-    },{
-    
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
-        maxInstances: 5,
-        //
-        browserName: 'firefox',
-        platform: 'MAC'
+        // acceptInsecureCerts: true,
+        'goog:chromeOptions': {
+            args: ['--no-sandbox', '--disable-dev-shm-usage', '--headless']}
+        //platform: 'MAC'
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     }],
+    // {
+    
+    //     // maxInstances can get overwritten per capability. So if you have an in-house Selenium
+    //     // grid with only 5 firefox instances available you can make sure that not more than
+    //     // 5 instances get started at a time.
+    //     maxInstances: 5,
+    //     //
+    //     browserName: 'firefox',
+    //     // If outputDir is provided WebdriverIO can capture driver session logs
+    //     // it is possible to configure which logTypes to include/exclude.
+    //     // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+    //     // excludeDriverLogs: ['bugreport', 'server'],
+    // }],
     //
     // ===================
     // Test Configurations
@@ -129,7 +143,8 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services:[
-        ['chromedriver'],
+        ['docker'],
+        //['chromedriver'],
         ['image-comparison',
         // The options
         {
@@ -180,7 +195,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters:[['allure', {
+        outputDir: 'allure-results',
+        // disableWebdriverStepsReporting: true,
+        // disableWebdriverScreenshotsReporting: true,
+    }]],
 
 
     
@@ -322,4 +341,24 @@ exports.config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
+    // onComplete: function() {
+    //     const reportError = new Error('Could not generate Allure report')
+    //     const generation = allure(['generate', 'allure-results', '--clean'])
+    //     return new Promise((resolve, reject) => {
+    //         const generationTimeout = setTimeout(
+    //             () => reject(reportError),
+    //             5000)
+
+    //         generation.on('exit', function(exitCode) {
+    //             clearTimeout(generationTimeout)
+
+    //             if (exitCode !== 0) {
+    //                 return reject(reportError)
+    //             }
+
+    //             console.log('Allure report successfully generated')
+    //             resolve()
+    //         })
+    //     })
+    // }
 }

@@ -9,27 +9,12 @@ class welcomepage {
      */
     get pageheader() {return $('[alt="Volvo"]')}
     get acceptcookie() {return $('[title="Accept"]')}
-
-    // get inputUsername () { return $('#username') }
-    // get inputPassword () { return $('#password') }
-    // get btnSubmit () { return $('button[type="submit"]') }
-
-    /**
-     * a method to encapsule automation code to interact with the page
-     * e.g. to login using username and password
-     */
-    // async login (username, password) {
-    //     await this.inputUsername.setValue(username);
-    //     await this.inputPassword.setValue(password);
-    //     await this.btnSubmit.click();
+    get carMenu() {return $('[id="nav:topNavCarMenu"]')}
+    get select_model() {return $('//*[@id="site-nav-cars-menu-section-panel-1"]/div/div[1]')}
+    get link_features() {return $('//*[contains(text(),"Full features")]')}
+    get link_belt() {return $('//*[contains(text(),"Safety belts")]')}
     
 
-    /**
-     * overwrite specifc options to adapt it to page object
-     */
-    // open () {
-    //     return super.open('login');
-    // }
 }
 
 module.exports = new welcomepage();

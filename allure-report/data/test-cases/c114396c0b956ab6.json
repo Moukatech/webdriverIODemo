@@ -1,0 +1,56 @@
+{
+  "uid" : "c114396c0b956ab6",
+  "name" : "should validate we are on the landing page",
+  "fullName" : "One Million Campaign.should validate we are on the landing page",
+  "historyId" : "d70608abe3fae39b6d755510bb7e407c",
+  "time" : {
+    "start" : 1633604579889,
+    "stop" : 1633604583666,
+    "duration" : 3777
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "One Million Campaign"
+  }, {
+    "name" : "testClass",
+    "value" : "One Million Campaign"
+  }, {
+    "name" : "testMethod",
+    "value" : "should validate we are on the landing page"
+  }, {
+    "name" : "package",
+    "value" : "One Million Campaign"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c114396c0b956ab6.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

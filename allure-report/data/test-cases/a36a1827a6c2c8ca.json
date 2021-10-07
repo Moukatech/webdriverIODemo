@@ -1,0 +1,56 @@
+{
+  "uid" : "a36a1827a6c2c8ca",
+  "name" : "should go to Full Features Page",
+  "fullName" : "Validate safety specs.should go to Full Features Page",
+  "historyId" : "d481d95f1d8c253ac50fd18a310a4358",
+  "time" : {
+    "start" : 1633604620161,
+    "stop" : 1633604627074,
+    "duration" : 6913
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate safety specs"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate safety specs"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to Full Features Page"
+  }, {
+    "name" : "package",
+    "value" : "Validate safety specs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a36a1827a6c2c8ca.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

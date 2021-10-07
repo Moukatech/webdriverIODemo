@@ -1,0 +1,350 @@
+{
+  "4db08541e52fd6eef86943e0faeebb6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11e4cea5efa0dac8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633636479395,
+        "stop" : 1633636510978,
+        "duration" : 31583
+      }
+    } ]
+  },
+  "ecdfd8f41c65c3ab64a960630fa0f6dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e738927df71d86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635049455,
+        "stop" : 1633635064706,
+        "duration" : 15251
+      }
+    } ]
+  },
+  "f78741c4cae59088f92e2c12fc463df4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b143e603cc6822d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635089992,
+        "stop" : 1633635112990,
+        "duration" : 22998
+      }
+    } ]
+  },
+  "3b33445ddbcabd5143108511e194b153" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a82aae9aef71f72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635361237,
+        "stop" : 1633635394648,
+        "duration" : 33411
+      }
+    } ]
+  },
+  "c386ce7544923d237e69e4528630bd33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19e5d22e7d345f94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633636488570,
+        "stop" : 1633636532139,
+        "duration" : 43569
+      }
+    } ]
+  },
+  "ca81df5e797bc0bd0bf162c3bcc0b665" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5510154bb68b74a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633636479794,
+        "stop" : 1633636488568,
+        "duration" : 8774
+      }
+    } ]
+  },
+  "daa654d8d3b98bac71c42f720bb9f54e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4054476f0c1b452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635064707,
+        "stop" : 1633635098190,
+        "duration" : 33483
+      }
+    } ]
+  },
+  "bf08abd9148443e6f3cb7ac5eefa9270" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4753781e54ed096",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"//*[@id=\"ImageWithText-4\"]//a\" because element wasn't found",
+      "time" : {
+        "start" : 1633635113016,
+        "stop" : 1633635123086,
+        "duration" : 10070
+      }
+    } ]
+  },
+  "96d7f7f84117f2434e5a6f0443dfec20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b73b3e892859f32",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-autoid=\"iconCallouts:cta\" href=\"/intl/v/car-safety\" class=\"a ae ag aw dt du ec hm hn ho hp hq hr hs ht hu\">...</a> is not clickable at point (592, 23). Other element would receive the click: <div class=\"_SN-al _SN-am _SN-an _SN-ay _SN-ds _SN-u _SN-w\">...</div>\n                  (Session info: chrome=94.0.4606.71)",
+      "time" : {
+        "start" : 1633635085634,
+        "stop" : 1633635089991,
+        "duration" : 4357
+      }
+    } ]
+  },
+  "cb87a2c89b1f1de70531e78b0b32c378" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2fd8aad8cec7c10",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"c d e f g h tk\">...</div> is not clickable at point (568, 9). Other element would receive the click: <div data-autoid=\"pdpsubmenu:nav-mobile\" class=\"at c dt du e f g h q\">...</div>\n                  (Session info: headless chrome=94.0.4606.61)",
+      "time" : {
+        "start" : 1633636510978,
+        "stop" : 1633636519849,
+        "duration" : 8871
+      }
+    } ]
+  },
+  "dcc47e9432ea178a155e3de9b634d48d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9450c7983537a575",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635105570,
+        "stop" : 1633635107819,
+        "duration" : 2249
+      }
+    } ]
+  },
+  "185e3615906bb092fa79f911bd5506b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80b507e54bd3bb88",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[contains(text(),\"Safety belts\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1633636519849,
+        "stop" : 1633636530017,
+        "duration" : 10168
+      }
+    } ]
+  },
+  "dd4582a8024b5d3bd261999f13d226b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3446a73f164f855",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635329039,
+        "stop" : 1633635376778,
+        "duration" : 47739
+      }
+    } ]
+  },
+  "d481d95f1d8c253ac50fd18a310a4358" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a90c5b99dd63370b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635098215,
+        "stop" : 1633635105570,
+        "duration" : 7355
+      }
+    } ]
+  },
+  "f4e3ae8a6b7438993fb12b2b58978216" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4de8cd96a6e8602a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a data-autoid=\"iconCallouts:cta\" href=\"/intl/v/car-safety\" class=\"a ae ag aw dt du ec hm hn ho hp hq hr hs ht hu\">...</a> is not clickable at point (392, 23). Other element would receive the click: <div class=\"_SN-al _SN-am _SN-an _SN-ay _SN-ds _SN-u _SN-w\">...</div>\n                  (Session info: headless chrome=94.0.4606.61)",
+      "time" : {
+        "start" : 1633636532258,
+        "stop" : 1633636537395,
+        "duration" : 5137
+      }
+    } ]
+  },
+  "71e8f44ff7f6bbe8e8c8ec7d60fea445" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d93cfe1add93097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635056484,
+        "stop" : 1633635085498,
+        "duration" : 29014
+      }
+    } ]
+  },
+  "d70608abe3fae39b6d755510bb7e407c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d85e608227ecabf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633635049454,
+        "stop" : 1633635056483,
+        "duration" : 7029
+      }
+    } ]
+  },
+  "d26377f65fb1479b5ea63ec270a89da8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27565dcb45b82939",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"//*[@id=\"ImageWithText-4\"]//a\" because element wasn't found",
+      "time" : {
+        "start" : 1633636537396,
+        "stop" : 1633636547481,
+        "duration" : 10085
+      }
+    } ]
+  }
+}

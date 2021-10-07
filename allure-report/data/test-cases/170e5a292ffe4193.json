@@ -1,0 +1,541 @@
+{
+  "uid" : "170e5a292ffe4193",
+  "name" : "should go to car safety page ",
+  "fullName" : "Learn About Our car safety campaign.should go to car safety page ",
+  "historyId" : "96d7f7f84117f2434e5a6f0443dfec20",
+  "time" : {
+    "start" : 1633619175043,
+    "stop" : 1633619187743,
+    "duration" : 12700
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//*[contains(text(),\"Car safety\")]`) to have text\n                \n                Expected: \"Car safety\"\n                Received: \"\"",
+  "statusTrace" : "Error: Expect $(`//*[contains(text(),\"Car safety\")]`) to have text\n                \n                Expected: \"Car safety\"\n                Received: \"\"\n                    at Context.<anonymous> (/Users/lewismocha/Projects/JScode/test/specs/car_safety_page.js:10:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//*[contains(text(),\"Car safety\")]`) to have text\n                \n                Expected: \"Car safety\"\n                Received: \"\"",
+    "statusTrace" : "Error: Expect $(`//*[contains(text(),\"Car safety\")]`) to have text\n                \n                Expected: \"Car safety\"\n                Received: \"\"\n                    at Context.<anonymous> (/Users/lewismocha/Projects/JScode/test/specs/car_safety_page.js:10:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633619175045,
+        "stop" : 1633619175124,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80c31591b82b51d0",
+        "name" : "Request",
+        "source" : "80c31591b82b51d0.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "8ed776ebfa3a239f",
+        "name" : "Response",
+        "source" : "8ed776ebfa3a239f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/bb378eb1-8191-438a-a803-4278d486e245/click",
+      "time" : {
+        "start" : 1633619175131,
+        "stop" : 1633619187743,
+        "duration" : 12612
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Expect $(`//*[contains(text(),\"Car safety\")]`) to have text\n                \n                Expected: \"Car safety\"\n                Received: \"\"\n                    at Context.<anonymous> (/Users/lewismocha/Projects/JScode/test/specs/car_safety_page.js:10:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633619175973,
+          "stop" : 1633619176064,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "abba200d3e5bc1ae",
+          "name" : "Request",
+          "source" : "abba200d3e5bc1ae.json",
+          "type" : "application/json",
+          "size" : 90
+        }, {
+          "uid" : "f73d5fc0bdd891e0",
+          "name" : "Response",
+          "source" : "f73d5fc0bdd891e0.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/bb378eb1-8191-438a-a803-4278d486e245/click",
+        "time" : {
+          "start" : 1633619176067,
+          "stop" : 1633619187743,
+          "duration" : 11676
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: Expect $(`//*[contains(text(),\"Car safety\")]`) to have text\n                \n                Expected: \"Car safety\"\n                Received: \"\"\n                    at Context.<anonymous> (/Users/lewismocha/Projects/JScode/test/specs/car_safety_page.js:10:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1633619176098,
+            "stop" : 1633619176128,
+            "duration" : 30
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7b7fcea294f6e151",
+            "name" : "Request",
+            "source" : "7b7fcea294f6e151.json",
+            "type" : "application/json",
+            "size" : 90
+          }, {
+            "uid" : "cf231ad2b2d931c3",
+            "name" : "Response",
+            "source" : "cf231ad2b2d931c3.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/e804108b-ad1f-4852-a58e-e8d8708d5945/click",
+          "time" : {
+            "start" : 1633619176131,
+            "stop" : 1633619177535,
+            "duration" : 1404
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1633619177536,
+            "stop" : 1633619177731,
+            "duration" : 195
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ada33a3a61ce9f5e",
+            "name" : "Request",
+            "source" : "ada33a3a61ce9f5e.json",
+            "type" : "application/json",
+            "size" : 73
+          }, {
+            "uid" : "9e45ce6deae56ddb",
+            "name" : "Response",
+            "source" : "9e45ce6deae56ddb.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619177737,
+            "stop" : 1633619178033,
+            "duration" : 296
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619178240,
+            "stop" : 1633619178260,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619178741,
+            "stop" : 1633619178752,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619179238,
+            "stop" : 1633619179249,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619179737,
+            "stop" : 1633619179747,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619180241,
+            "stop" : 1633619180253,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619180742,
+            "stop" : 1633619180756,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619181239,
+            "stop" : 1633619181249,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619181739,
+            "stop" : 1633619181750,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619182239,
+            "stop" : 1633619182250,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619182740,
+            "stop" : 1633619182750,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619183240,
+            "stop" : 1633619183251,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619183741,
+            "stop" : 1633619183760,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619184241,
+            "stop" : 1633619184254,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619184737,
+            "stop" : 1633619184751,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619185237,
+            "stop" : 1633619185248,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619185737,
+            "stop" : 1633619185749,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619186237,
+            "stop" : 1633619186248,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619186740,
+            "stop" : 1633619186752,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619187236,
+            "stop" : 1633619187248,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET /session/:sessionId/element/9e6544de-c65a-4f8a-804c-e292e5e846ed/text",
+          "time" : {
+            "start" : 1633619187737,
+            "stop" : 1633619187743,
+            "duration" : 6
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: Expect $(`//*[contains(text(),\"Car safety\")]`) to have text\n                \n                Expected: \"Car safety\"\n                Received: \"\"\n                    at Context.<anonymous> (/Users/lewismocha/Projects/JScode/test/specs/car_safety_page.js:10:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "stepsCount" : 24,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 6,
+      "stepsCount" : 26,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "stepsCount" : 28,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "testClass",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "testMethod",
+    "value" : "should go to car safety page "
+  }, {
+    "name" : "package",
+    "value" : "Learn About Our car safety campaign"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "170e5a292ffe4193.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}
