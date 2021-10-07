@@ -15,13 +15,13 @@ describe('Learn About Our car safety campaign', () => {
         await browser.saveScreen('Safety_page', { /* some options */ });
    
   	// Save a full page screenshot
-  	    await browser.saveFullPageScreen('safetyPage_description', { fullPageScrollTimeout: 3000, });
+  	    await browser.saveFullPageScreen('safetyPage_description', { fullPageScrollTimeout: 6000, });
 
     })
     it('should go to Safety Innovation Page', async () => {
         const elem = await (safetypage.link_innovationPage);
             // scroll to specific element
-        await elem.scrollIntoView(true);
+        await elem.scrollIntoView(false);
     
         await elem.click();
 

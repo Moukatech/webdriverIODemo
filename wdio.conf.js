@@ -11,10 +11,10 @@ exports.config = {
     // path: '/',
 
     // hostnames for the kubernetes instance
-    hostname: '192.168.64.2',
-    port: 30001,
-    path: '/wd/hub/',
-    protocol: 'http',
+    // hostname: '192.168.64.2',
+    // port: 30001,
+    // path: '/wd/hub/',
+    // protocol: 'http',
     // ==================
     // Specify Test Files
     // ==================
@@ -74,8 +74,8 @@ exports.config = {
         //
         browserName: 'chrome',
         // acceptInsecureCerts: true,
-        'goog:chromeOptions': {
-            args: ['--no-sandbox', '--disable-dev-shm-usage', '--headless']}
+        // 'goog:chromeOptions': {
+        //     args: ['--no-sandbox', '--disable-dev-shm-usage', '--headless']}
         //platform: 'MAC'
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -144,7 +144,7 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services:[
         ['docker'],
-        //['chromedriver'],
+        ['chromedriver'],
         ['image-comparison',
         // The options
         {

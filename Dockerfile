@@ -28,11 +28,11 @@ RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 RUN google-chrome --version
 
 # INSTALL PACKAGES
-WORKDIR /usr/wdiowithoutgrid/
+WORKDIR /usr/wdiodemo/
 COPY package*.json ./
 COPY . .
 EXPOSE 8080
 RUN npm install
 
 # ON RUNNING THE IMAGE THIS COMMAND WILL BE TRIGGERED BY DEFAULT
-ENTRYPOINT ["npm", "run", "test"]
+ENTRYPOINT ["npm", "run", "test"]   

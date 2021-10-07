@@ -2,7 +2,7 @@ const Welcomepage = require('../pageobjects/welcome.page');
 const Page = require ('../pageobjects/page');
 
 
-describe('One Million Campaign', () => {
+describe('Welcome to One Million Campaign', () => {
     it('should validate we are on the landing page', async () => {
         await Page.open();
         

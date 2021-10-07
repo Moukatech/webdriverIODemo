@@ -20,13 +20,13 @@ describe('Validate safety specs', () => {
   	    await browser.saveElement((await Welcomepage.pageheader), 'logo', { /* some options */ });
 
   	// Save a full page screenshot
-  	    await browser.saveFullPageScreen('car_description', { fullPageScrollTimeout: 3000, });
+  	    await browser.saveFullPageScreen('car_description', { fullPageScrollTimeout: 6000, });
 
    })
     it('should go to Full Features Page', async () => {
         const elem = await (Welcomepage.link_features);
             // scroll to specific element
-        await elem.scrollIntoView(true); 
+        await elem.scrollIntoView(false); 
 
         await elem.click();
 
