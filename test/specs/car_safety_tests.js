@@ -11,13 +11,13 @@ describe('Learn About Our car safety campaign', () => {
             'Car safety | Volvo Cars - International');
         
     });
-    // it('Car Safety screenshots', async () => {
-    //     await browser.saveScreen('Safety_page', { /* some options */ });
+    it('Car Safety screenshots', async () => {
+        await browser.saveScreen('Safety_page', { /* some options */ });
    
-  	// // Save a full page screenshot
-  	//     await browser.saveFullPageScreen('safetyPage_description', { fullPageScrollTimeout: 3000, });
+  	// Save a full page screenshot
+  	    await browser.saveFullPageScreen('safetyPage_description', { fullPageScrollTimeout: 3000, });
 
-    // })
+    })
     it('should go to Safety Innovation Page', async () => {
         const elem = await (safetypage.link_innovationPage);
             // scroll to specific element

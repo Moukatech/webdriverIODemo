@@ -14,15 +14,15 @@ describe('Validate safety specs', () => {
             'Volvo XC90 Recharge plug-in hybrid | Volvo Cars');
         
     });
-    // it('Save screenshot', async () => {
-    //     await browser.saveScreen('car_model', { /* some options */ });
-    // // Save an element
-  	//     await browser.saveElement((await Welcomepage.pageheader), 'logo', { /* some options */ });
+    it('Save screenshot', async () => {
+        await browser.saveScreen('car_model', { /* some options */ });
+    // Save an element
+  	    await browser.saveElement((await Welcomepage.pageheader), 'logo', { /* some options */ });
 
-  	// // Save a full page screenshot
-  	//     await browser.saveFullPageScreen('car_description', { fullPageScrollTimeout: 3000, });
+  	// Save a full page screenshot
+  	    await browser.saveFullPageScreen('car_description', { fullPageScrollTimeout: 3000, });
 
-   // })
+   })
     it('should go to Full Features Page', async () => {
         const elem = await (Welcomepage.link_features);
             // scroll to specific element

@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"ImageWithText-4\"]//a\"}\n  (Session info: headless chrome=94.0.4606.61)",
-  "stacktrace": "#0 0x55c6811ca8f3 <unknown>\n#1 0x55c680cafba8 <unknown>\n#2 0x55c680ce59b5 <unknown>\n#3 0x55c680d18104 <unknown>\n#4 0x55c680d02e9d <unknown>\n#5 0x55c680d15dac <unknown>\n#6 0x55c680d02d63 <unknown>\n#7 0x55c680cd9144 <unknown>\n#8 0x55c680cda135 <unknown>\n#9 0x55c6811f9c3e <unknown>\n#10 0x55c68120f6b7 <unknown>\n#11 0x55c6811fab95 <unknown>\n#12 0x55c681210b05 <unknown>\n#13 0x55c6811ef2ab <unknown>\n#14 0x55c68122b248 <unknown>\n#15 0x55c68122b3c8 <unknown>\n#16 0x55c68124633d <unknown>\n#17 0x7f8acbbbe609 start_thread\n"
-}

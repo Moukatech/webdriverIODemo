@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),\"Safety belts\")]\"}\n  (Session info: headless chrome=94.0.4606.61)",
-  "stacktrace": "#0 0x556686ed98f3 <unknown>\n#1 0x5566869beba8 <unknown>\n#2 0x5566869f49b5 <unknown>\n#3 0x556686a27104 <unknown>\n#4 0x556686a11e9d <unknown>\n#5 0x556686a24dac <unknown>\n#6 0x556686a11d63 <unknown>\n#7 0x5566869e8144 <unknown>\n#8 0x5566869e9135 <unknown>\n#9 0x556686f08c3e <unknown>\n#10 0x556686f1e6b7 <unknown>\n#11 0x556686f09b95 <unknown>\n#12 0x556686f1fb05 <unknown>\n#13 0x556686efe2ab <unknown>\n#14 0x556686f3a248 <unknown>\n#15 0x556686f3a3c8 <unknown>\n#16 0x556686f5533d <unknown>\n#17 0x7f2421b5d609 start_thread\n"
-}
