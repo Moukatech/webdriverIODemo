@@ -26,7 +26,7 @@ describe('Validate safety specs', () => {
     it('should go to Full Features Page', async () => {
         const elem = await (Welcomepage.link_features);
             // scroll to specific element
-        await elem.scrollIntoView(false); 
+        await elem.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"}); 
 
         await elem.click();
 
@@ -35,13 +35,17 @@ describe('Validate safety specs', () => {
       
     });
     it('should go to safety Belt page', async () => {
-        
-      await (Welcomepage.link_belt).click();
+        const elem = await (Welcomepage.link_belt);
+            // scroll to specific element
+        await elem.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"}); 
 
-      await expect(Welcomepage.link_belt).toHaveText(
+
+        await elem.click();
+
+        await expect(Welcomepage.link_belt).toHaveText(
           'Safety belts');
       
-      await browser.saveScreen('safety_belt_campaign', { /* some options */ });
+        await browser.saveScreen('safety_belt_campaign', { /* some options */ });
     });
     
 });

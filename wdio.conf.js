@@ -32,11 +32,8 @@ exports.config = {
     //
     specs: [
         //'./test/specs/**/*.js'
-        
-        [  
         './test/specs/welcome_page_tests.js',
         './test/specs/car_safety_tests.js',
-        ],
         './test/specs/carspecs_validation_tests.js',
 ],
     // Patterns to exclude.
