@@ -4,7 +4,8 @@ This is a simple implementation to run tests for the one more million Campaign.
 --- Environment preps.---
 Clone/ unzip the project.
 Ensure node js is installed in your local machine.
-Now go to the directory of this project and run npm install – this will install all the dependences in package.json file
+Now go to the directory of this project and run npm install – this will install all the dependences in package.json file.
+
 How to execute the tests.
 1. Using selenium grid with kubernetes
 2. Creating a docker Image and running the image to do the tests
